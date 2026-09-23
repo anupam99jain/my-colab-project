@@ -188,8 +188,6 @@ git commit -m "Update Streamlit frontend"
 git push
 ```
 
-If the repository is deployed on Streamlit Community Cloud, pushing changes to the connected branch will trigger a new deployment.
-
 ---
 
 # Important files
@@ -215,25 +213,3 @@ Python dependencies required to run the application.
 The original notebook containing the model-development workflow.
 
 ---
-
-# Collaboration workflow
-
-If you are working from a fork:
-
-```text
-Your fork
-    ↓
-Make changes
-    ↓
-git push
-    ↓
-Pull Request
-    ↓
-Friend's original repository
-```
-
-After your friend merges the Pull Request, other contributors can clone the original repository and run it locally using the instructions above.
-
-## License
-
-Add your project's license here if you decide to publish one.
